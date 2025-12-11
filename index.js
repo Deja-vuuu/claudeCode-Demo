@@ -30,4 +30,4 @@ const house = {
     price: 250000,
 };
 
-module.exports = { add, subtract, multiply };
+module.exports = { add, subtract, house };
