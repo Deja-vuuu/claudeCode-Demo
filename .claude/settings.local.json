@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(claude mcp add:*)",
+      "Bash(claude mcp list)",
+      "Bash(npx @benborla29/mcp-server-mysql --version)",
+      "Bash(mysql:*)",
+      "Bash(claude mcp remove:*)",
+      "Bash(mysql:SHOW TABLES)",
+      "Bash(MYSQL_HOST=127.0.0.1 MYSQL_PORT=3306 MYSQL_USER=root MYSQL_PASSWORD=12345678 MYSQL_DATABASE=my_db timeout 5 npx:*)",
+      "mcp__x-mcp__xhs_search_feeds",
+      "Bash(mktemp:*)",
+      "mcp__x-mcp__xhs_publish_content",
+      "mcp__x-mcp__xhs_check_login_status"
+    ],
+    "deny": [],
+    "ask": []
+  },
+  "enableAllProjectMcpServers": true,
+  "enabledMcpjsonServers": [
+    "mysql"
+  ]
+}

@@ -1,0 +1,57 @@
+# 依赖目录
+node_modules/
+.pnp
+.pnp.js
+
+# 测试覆盖率
+coverage/
+*.lcov
+.nyc_output
+
+# 构建输出
+dist/
+build/
+out/
+*.tsbuildinfo
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 日志文件
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# IDE 配置
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# 临时文件
+*.tmp
+.temp/
+tmp/
+
+# 可选的 npm 缓存目录
+.npm
+
+# 可选的 eslint 缓存
+.eslintcache
+
+# 可选的 REPL 历史
+.node_repl_history
+
+# 包管理器文件(保留 pnpm-lock.yaml,但忽略其他)
+package-lock.json
+yarn.lock
