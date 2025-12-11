@@ -11,7 +11,9 @@
       "mcp__x-mcp__xhs_search_feeds",
       "Bash(mktemp:*)",
       "mcp__x-mcp__xhs_publish_content",
-      "mcp__x-mcp__xhs_check_login_status"
+      "mcp__x-mcp__xhs_check_login_status",
+      "WebSearch",
+      "WebFetch(domain:www.nmc.cn)"
     ],
     "deny": [],
     "ask": []
@@ -19,5 +21,18 @@
   "enableAllProjectMcpServers": true,
   "enabledMcpjsonServers": [
     "mysql"
-  ]
+  ],
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Edit|MultiEdit|Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo '🎨 Running prettier...' && npx prettier --check ."
+          }
+        ]
+      }
+    ]
+  }
 }
