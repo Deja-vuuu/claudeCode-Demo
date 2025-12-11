@@ -26,6 +26,8 @@ function subtract(a, b) {
 
 const house = {
     id: 1,
+    address: '123 Main St',
+    price: 250000,
 };
 
-module.exports = { add, subtract, multiply };
+module.exports = { add, subtract, house };
