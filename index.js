@@ -17,6 +17,7 @@ function add(a, b) {
  * @param {number} b - 减数
  * @returns {number} 两个数字的差
  */
+
 function subtract(a, b) {
     if (typeof a !== 'number' || typeof b !== 'number') {
         throw new TypeError('参数必须是数字类型');
@@ -32,4 +33,5 @@ const house = {
 
 
 
-module.exports = { add, subtract, house， getNowDate };
+
+module.exports = { add, subtract, house， getNowDate。 };
