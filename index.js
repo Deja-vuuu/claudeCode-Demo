@@ -30,4 +30,6 @@ const house = {
     price: 250000,
 };
 
-module.exports = { add, subtract, house };
+
+
+module.exports = { add, subtract, house， getNowDate };
