@@ -41,4 +41,4 @@ function getNowDate() {
 
 
 
-module.exports = { add, subtract, house， getNowDate。 a};
+module.exports = { add, subtract, house, getNowDate };
