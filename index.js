@@ -31,6 +31,13 @@ const house = {
     price: 250000,
 };
 
+/**
+ * 获取当前日期
+ * @returns {Date} 当前日期对象
+ */
+function getNowDate() {
+    return new Date();
+}
 
 
 
